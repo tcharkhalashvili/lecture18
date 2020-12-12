@@ -1,0 +1,68 @@
+.slider_section{
+    .items{
+        display: grid;
+        grid-template-columns: 1fr 3fr 2fr;
+        position: absolute;
+        width: 100%;
+        top: 113px;
+        left: 0;
+        grid-gap: 10px;
+
+        .right_item{
+            .text p {
+                color: #DFE2DB;
+                font-family: "Inter", Sans-serif;
+                font-size: 20px;
+                z-index: 3;
+                position: absolute;
+                top: 0;
+                margin-top: 77px;
+                width: 24%;
+            }
+        }
+
+        .left_item {
+            padding-left: 35px;
+            color: white;
+
+            .button {
+                font-family: "Inter", Sans-serif;
+                text-transform: uppercase;
+                line-height: 1.6em;
+                letter-spacing: 3.5px;
+                border-style: solid;
+                border-width: 2px 2px 2px 2px;
+                border-color: #D29A5A00;
+                padding: 16px 28px 16px 28px;
+                background: #ce8604;
+                margin-top: 305px;
+                color: black;
+                position: absolute;
+            }
+
+            h2 {
+                line-height: 1.2;
+                font-family: "Raleway", Sans-serif;
+                font-size: 63px;
+                font-weight: 800;
+                position: absolute;
+                width: 40%;
+
+                span {
+                    color: #e29a15;
+                }
+            }
+        }
+
+        .item{
+            background-image: url(./images/img-hero-1@2x.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: auto;
+            width: 100%;
+
+          
+        }
+    }
+}
